@@ -1,0 +1,135 @@
+@import url(https://fonts.googleapis.com/css?family=Coming+Soon:regular);
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:700italic);
+
+
+/* Обнуление */
+*,
+*::after,
+*::before{
+   margin: 0;
+   padding: 0;
+   border: none;
+   box-sizing: border-box;
+}
+li{
+   list-style: none;
+}
+a{
+   color: inherit;
+}
+a:link,
+a:visited{
+   text-decoration: none;
+}
+a:hover{
+   text-decoration: none;
+}
+img{
+   vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+input,
+button,
+textarea{
+   font-weight: inherit;
+   font-size: inherit;
+}
+button{
+   cursor: pointer;
+   color: inherit;
+   background: inherit;
+}
+body{
+   line-height: 1;
+	font-family: 'Roboto';
+}
+
+/* Конец обнуления */
+
+
+body {
+	font-family: 'Roboto', italic;
+	font-weight: 700;
+	font-size: 25px;
+	box-sizing: border-box;
+	width: 800px;
+	text-align: center;
+	background: rgb(218, 216, 216);
+	margin: 110px 550px;
+}
+
+a {
+	color: rgb(0, 158, 124);
+}
+
+.header {
+	background: rgb(0, 0, 0);
+	color: red;
+	text-shadow: 10px 1px 15px ;
+}
+.main-title {
+	text-transform: capitalize;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+.main {
+	background: rgb(197, 194, 194);
+	line-height: 35px;
+}
+
+.whaleseng {
+	font-family: 'Coming Soon', serif;
+	font-weight: 400;
+	padding-top: 30px;
+}
+.questionru, .questioneng {
+	text-transform: uppercase;
+	font-weight: 800;
+	padding: 30px 0px 30px 0px;
+}
+.frsteng, 
+.scndeng, 
+.frstru, 
+.scndru {
+	text-indent: 50px;
+	margin-top: 20px;
+}
+
+.postscript {
+	margin-top: 30px;
+}
+
+.goup {
+	text-align: left;
+	text-transform: uppercase;
+	background: rgb(179, 176, 176);
+	width: 75px;
+}
+
+.goup{
+	text-decoration: underline;
+	text-shadow: 0px 0px 10px;
+}
+.footer {
+	background: rgba(107, 230, 247, 0.89);
+}
+.about {
+	text-align: right;
+	font-style: italic;
+}
+
+
+.header,
+.main,
+.footer {
+	padding: 30px;
+}
